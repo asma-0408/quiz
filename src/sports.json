@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "number": 1,
+      "question": "Who is the current captain of the Indian cricket team?",
+      "option1": "Sachin Tendulkar",
+      "option2": "Sunil Chhetri",
+      "option3": "Virat Kohli",
+      "option4": "Rohit Shrama",
+      "correctAnswer": "Virat Kohli"
+    },
+    {
+      "number": 2,
+      "question": "Who is the current captain of the Indian football team?",
+      "option1": "Baichung Bhutia",
+      "option2": "Sunil Chhetri",
+      "option3": "Sandesh Jhingan",
+      "option4": "Rohit Shrama",
+      "correctAnswer": "Sunil Chhetri"
+    },
+    {
+      "number": 3,
+      "question": "When did India win the first cricket world cup?",
+      "option1": "1996",
+      "option2": "1983",
+      "option3": "2011",
+      "option4": "2019",
+      "correctAnswer": "1983"
+    },
+    {
+      "number": 4,
+      "question": "Which tennis player has the best record on clay courts?",
+      "option1": "Rafael Nadal",
+      "option2": "Novak Djokovic",
+      "option3": "Roger Federer",
+      "option4": "Andy Murray",
+      "correctAnswer": "Rafael Nadal"
+    },
+    {
+      "number": 5,
+      "question": "Which one of the following football clubs is the oldest",
+      "option1": "Real Madrid",
+      "option2": "FC Barcelona",
+      "option3": "Mohun Bagan",
+      "option4": "Liverpool FC",
+      "correctAnswer": "Mohun Bagan"
+    },
+    {
+      "number": 6,
+      "question": "Ryder cup is related to which sports?",
+      "option1": "Polo",
+      "option2": "Golf",
+      "option3": "Badminton",
+      "option4": "Tennis",
+      "correctAnswer": "Golf"
+    },
+    {
+      "number": 7,
+      "question": "Pen Holder grip is used in which of the following sports?",
+      "option1": "Polo",
+      "option2": "Golf",
+      "option3": "Badminton",
+      "option4": "Table Tennis",
+      "correctAnswer": "Table Tennis"
+    },
+    {
+      "number": 8,
+      "question": "When was the last time the Olympic salute was used?",
+      "option1": "1956",
+      "option2": "1948",
+      "option3": "1974",
+      "option4": "1924",
+      "correctAnswer": "1948"
+    },
+    {
+      "number": 9,
+      "question": "With which sport is Dutee Chand associated?",
+      "option1": "Sprint 100m",
+      "option2": "Long Jump",
+      "option3": "High Jump",
+      "option4": "Discus Throw",
+      "correctAnswer": "Sprint 100m"
+    },
+    {
+      "number": 10,
+      "question": "Who had founded the International Olympic Committee in 1894?",
+      "option1": "Jacques Rogge",
+      "option2": "Demetrios Vikelas",
+      "option3": "Pierre de Coubertin",
+      "option4": "Henry Kissinger",
+      "correctAnswer": "Pierre de Coubertin"
+    }
+  ]
+}

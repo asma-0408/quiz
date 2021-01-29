@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "number": 1,
+        "question": "What was the first movie in the Marvel Cinematic Universe?",
+        "option1": "The Avengers",
+        "option2": "Iron Man",
+        "option3": "Thor",
+        "option4": "Spider-Man",
+        "correctAnswer": "Iron Man"
+      },
+      {
+        "number": 2,
+        "question": "Which of these actors DID NOT appear in Pulp Fiction?",
+        "option1": "Samuel L Jackson",
+        "option2": "John Turturro",
+        "option3": "Bruce Willis",
+        "option4": "Uma Thurman",
+        "correctAnswer": "John Turturro"
+      },
+      {
+        "number": 3,
+        "question": "What is it called when an actor breaks character to directly address the audience?",
+        "option1": "Bending the narrative",
+        "option2": "Sweeping the rug",
+        "option3": "Breaking the 4th wall",
+        "option4": "Following the loose thread",
+        "correctAnswer": "Breaking the 4th wall"
+      },
+      {
+        "number": 4,
+        "question": "Which of these movies was NOT directed by M. Night Shyamalan?",
+        "option1": "The Sixth Sense",
+        "option2": "Signs",
+        "option3": "Glass",
+        "option4": "The Ring",
+        "correctAnswer": "The Ring"
+      },
+      {
+        "number": 5,
+        "question": "Which  of the following is filmmaker Michael Bay known for?",
+        "option1": "Explosions",
+        "option2": "Fanciful costume design",
+        "option3": "Sweeping Western lanscape",
+        "option4": "Romantic comedy",
+        "correctAnswer": "Explosions"
+      },
+      {
+        "number": 6,
+        "question": "In the movie 'Frozen', who was Olaf?",
+        "option1": "A ghost",
+        "option2": "A snowman",
+        "option3": "A reindeer",
+        "option4": "A knight",
+        "correctAnswer": "A snowman"
+      },
+      {
+        "number": 7,
+        "question": "Who directed Dil Chahta Hai?",
+        "option1": "Zoya Akhtar",
+        "option2": "Aamir Khan",
+        "option3": "Farhan Akhtar",
+        "option4": "Reema Kagti",
+        "correctAnswer": "Farhan Akhtar"
+      },
+      {
+        "number": 8,
+        "question": "Fow which of these movies did Leonardo DiCaprio win an Oscar for Best Actor?",
+        "option1": "The Revenant",
+        "option2": "The Last King of Scotland",
+        "option3": "Blood Diamond",
+        "option4": "Titanic",
+        "correctAnswer": "The Revenant"
+      },
+      {
+        "number": 9,
+        "question": "In the 'Godfather' series, where qas Vito Corleone born?",
+        "option1": "Rome",
+        "option2": "New York City",
+        "option3": "Corleone, Sicilly",
+        "option4": "Athens",
+        "correctAnswer": "Corleone, Sicilly"
+      },
+      {
+        "number": 10,
+        "question": "Which is the only movie to win 13 Filmfare Awards?",
+        "option1": "Uri: The Surgical Strike",
+        "option2": "Article 15",
+        "option3": "Saand Ki Aankh",
+        "option4": "Gully Boy",
+        "correctAnswer": "Gully Boy"
+      }
+    ]
+  }
+  

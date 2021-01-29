@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "number": 1,
+        "question": "Who is the author of the book 'Freedom Behind Bars'?",
+        "option1": "Kiran Bedi",
+        "option2": "Jawaharlal Nehru",
+        "option3": "Sheikh Abdulla",
+        "option4": "Nelson Mandela",
+        "correctAnswer": "Kiran Bedi"
+      },
+      {
+        "number": 2,
+        "question": "In which language did 'Dr. Masti Venkatesh Iyengar' write?",
+        "option1": "Malyalam",
+        "option2": "Tamil",
+        "option3": "Telugu",
+        "option4": "Kannada",
+        "correctAnswer": "Kannada"
+      },
+      {
+        "number": 3,
+        "question": "Who is the author of the book 'We Indians'?",
+        "option1": "Nirad C. Choudhary",
+        "option2": "Subramaniya Swamy",
+        "option3": "Muluk Raj Anand",
+        "option4": "Khushwant Singh",
+        "correctAnswer": "Khushwant Singh"
+      },
+      {
+        "number": 4,
+        "question": "Which of the follwoing is NOT written by Munshi Premchand",
+        "option1": "Gaban",
+        "option2": "Godan",
+        "option3": "Guide",
+        "option4": "Mansarovar",
+        "correctAnswer": "Guide"
+      },
+      {
+        "number": 5,
+        "question": " The lead character in the film 'The Bandit Queen' has been played by?",
+        "option1": "Rupa Ganguly",
+        "option2": "Seema Biswas",
+        "option3": "Pratibha Sinha",
+        "option4": "Shabama Azmi",
+        "correctAnswer": "Shabama Azmi"
+      },
+      {
+        "number": 6,
+        "question": "In which year was the 'all india radio' set up?",
+        "option1": "1936",
+        "option2": "1927",
+        "option3": "1947",
+        "option4": "1950",
+        "correctAnswer": "1936"
+      },
+      {
+        "number": 7,
+        "question": "Who won the Gyan Peeth Award for her book 'Yama'?",
+        "option1": "Maheshwari Devi",
+        "option2": "Asha Pooran Devi",
+        "option3": "Amrita Preetam",
+        "option4": "Mahadevi Verma",
+        "correctAnswer": "Mahadevi Verma"
+      },
+      {
+        "number": 8,
+        "question": "'Alice in Wonderland' the famous TV serial is based on a book written by?",
+        "option1": "Father Discoste",
+        "option2": "Thomas Hardy",
+        "option3": "Charles Dickens",
+        "option4": "Lewis Caroll",
+        "correctAnswer": "Lewis Caroll"
+      },
+      {
+        "number": 9,
+        "question": "'The Gathering Storm' is written by?",
+        "option1": "Winston Churchill",
+        "option2": "George Washington",
+        "option3": "Voltaire",
+        "option4": "Romain Rolland",
+        "correctAnswer": "Winston Churchill"
+      },
+      {
+        "number": 10,
+        "question": "Who is the author of the book 'My Experiments with the Truth'?",
+        "option1": "Mahatma Gandhi",
+        "option2": "Michael Anderson",
+        "option3": "Winston Churchill",
+        "option4": "Jarnes Morris",
+        "correctAnswer": "Mahatma Gandhi"
+      }
+    ]
+  }
+  
