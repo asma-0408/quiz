@@ -11,7 +11,7 @@ import { getPoints } from "./Results.js";
 const questions_all = data["questions"];
 
 //pass the number of questions wanted here instead of 5
-var questions = getRandom(questions_all, 5);
+var questions = getRandom(questions_all, 10);
 
 function getRandom(arr, n) {
   var result = new Array(n),
@@ -48,7 +48,7 @@ export default function Sports() {
     } else {
       getPoints(points, "./Sports");
     }
-
+    getPoints(points, "./Sports");
     history.push("./Results");
   };
   const handleChange = (event) => {
@@ -57,16 +57,20 @@ export default function Sports() {
   const CheckAnswer = () => {
     if (selectedAnswer === questions[questionNO].correctAnswer) {
       increasePoints(points + 1);
+      alert("Correct Answer!");
+    } else {
+      alert("Wrong Answer :(");
     }
+
     nextQuestion();
   };
   const nextQuestion = () => {
-    if (questionNO === 4) {
-      setProgress((questionNO + 1) * 20);
+    if (questionNO === 9) {
+      setProgress((questionNO + 1) * 10);
       showResults();
     } else {
       setQuestionnNo(questionNO + 1);
-      setProgress((questionNO + 1) * 20);
+      setProgress((questionNO + 1) * 10);
       setSelectedAnswer("");
     }
   };
@@ -96,7 +100,7 @@ export default function Sports() {
     fontSize: 25,
     color: "#ffe5b9",
     paddingRight: 50,
-    fontWeight: 'bold'
+    fontWeight: "bold",
   };
 
   const questionStyle = {
@@ -113,31 +117,68 @@ export default function Sports() {
     fontSize: 30,
     color: "#f1f1f1",
     // fontWeight: "bold",
-    marginTop: -862,
-    marginRight: 30
+    marginRight: 30,
   };
 
   const mainStyle = {
     marginLeft: -10,
     marginRight: -10,
     marginTop: -10,
-    marginBottom: 20,
-    height: "110vh",
+    marginBottom: -20,
+    height: "130vh",
     backgroundImage: "linear-gradient(60deg, #120078, #9d0191)",
-    opacity: 0.8
+    opacity: 0.8,
+  };
+  const header = {
+    textAlign: "center",
+    height: 200,
+    color: "#f1f1f1",
+    fontSize: 60,
+    backgroundColor: "#120078",
+    fontFamily: "Helvetica",
   };
 
   const headingQuestion = {
     color: "#f1f1f1",
     maxwidth: 700,
     position: "relative",
-    margin: 'auto',
+    margin: "auto",
     fontWeight: "bold",
-
-  }
+  };
 
   return (
     <div style={mainStyle}>
+      <div style={header}>
+        <div>
+          <br></br>
+          <text>Sports Quiz</text>
+        </div>
+        <div style={timerStyle}>
+          <text style={{ fontSize: 30, fontWeight: "normal" }}>
+            Time Left :{" "}
+          </text>
+          <Timer
+            initialTime={180000}
+            direction="backward"
+            checkpoints={[
+              {
+                time: 0,
+                callback: () => {
+                  alert("Time Up!");
+                  showResults();
+                },
+              },
+            ]}
+          >
+            {() => (
+              <React.Fragment>
+                <Timer.Minutes />:
+                <Timer.Seconds /> secs
+              </React.Fragment>
+            )}
+          </Timer>
+        </div>
+      </div>
       <div style={questionStyle}>
         <div style={headingQuestion}>
           <text>Question: {questionNO + 1}</text>
@@ -209,36 +250,17 @@ export default function Sports() {
       </div>
 
       <div style={progressBar}>
-        <LinearProgress variant="determinate" value={progress} color="secondary"/>
+        <LinearProgress
+          variant="determinate"
+          value={progress}
+          color="secondary"
+        />
         <br></br>
-        {questionNO + 1}/5
+        {questionNO + 1}/10
         <br></br>
         <br></br>
         <h1> Points Scored: </h1>
-        <text style={{fontSize: 80}}>{points}</text>
-      </div>
-      <div style={timerStyle}>
-        <text style = {{fontSize: 30, fontWeight: 'normal'}}>Time Left:</text><br></br>
-        <Timer
-          initialTime={100000}
-          direction="backward"
-          checkpoints={[
-            {
-              time: 0,
-              callback: () => {
-                alert("Time Up!");
-                showResults();
-              },
-            },
-          ]}
-        >
-          {() => (
-            <React.Fragment>
-              <Timer.Minutes />:
-              <Timer.Seconds /> secs
-            </React.Fragment>
-          )}
-        </Timer>
+        <text style={{ fontSize: 80 }}>{points}</text>
       </div>
     </div>
   );

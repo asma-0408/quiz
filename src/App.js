@@ -4,10 +4,10 @@ import Sports from './Sports'
 import Movies from './Movies'
 import Books from './Books'
 import Results from './Results'
-
+import { withAuthenticator } from '@aws-amplify/ui-react'
 import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
 
-export default function App(){
+function App(){
     return(
         <Router>
             <Switch>
@@ -21,3 +21,4 @@ export default function App(){
 
     )
 }
+export default withAuthenticator(App)

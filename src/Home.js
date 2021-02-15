@@ -1,5 +1,6 @@
 import React from "react";
 import QuizButton from "./QuizButton";
+import { Auth } from "aws-amplify";
 
 export default function Home() {
   const Buttons = {
@@ -14,7 +15,7 @@ export default function Home() {
     fontSize: 70,
     textAlign: "center",
     fontFamily: "Helvetica",
-    color: "#f1f1f1"
+    color: "#f1f1f1",
   };
 
   const bottomText = {
@@ -22,27 +23,45 @@ export default function Home() {
     fontSize: 30,
     textAlign: "center",
     fontFamily: "Helvetica",
-    color: "#f1f1f1"
+    color: "#f1f1f1",
   };
   const mainStyle = {
     marginLeft: -10,
     marginRight: -10,
     marginTop: -10,
-    marginBottom: 20,
+    marginBottom: -20,
     height: "110vh",
     backgroundImage: "linear-gradient(60deg, #120078, #9d0191)",
-    opacity: 0.87
+    opacity: 0.87,
   };
+  const [user, setUser] = React.useState("");
+
+  getUserData();
+  function loadUser() {
+    return Auth.currentAuthenticatedUser({ bypassCache: true });
+  }
+
+  async function getUserData() {
+    try {
+      const logged = await loadUser();
+      setUser(logged.username);
+    } catch (e) {
+      //catching errors
+      alert(e);
+    }
+  }
   return (
     <div style={mainStyle}>
       <div style={heading}>
         <text>Quizzler</text>
       </div>
+      <div style={bottomText}>
+        <text>Hi {user}!</text>
+        <br></br>
+        <text>Please select a category to continue</text>
+      </div>
       <div style={Buttons}>
         <QuizButton />
-      </div>
-      <div style={bottomText}>
-        <text>Please select a category to continue</text>
       </div>
     </div>
   );

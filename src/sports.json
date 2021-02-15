@@ -89,6 +89,141 @@
       "option3": "Pierre de Coubertin",
       "option4": "Henry Kissinger",
       "correctAnswer": "Pierre de Coubertin"
+    },
+    {
+      "number": 11,
+      "question": "Holkar Trophy is associated with which sport?",
+      "option1": "Bridge",
+      "option2": "Cricket",
+      "option3": "Football",
+      "option4": "Basketball",
+      "correctAnswer": "Bridge"
+    },
+    {
+      "number": 12,
+      "question": "The first Indian to cross seven important seas by swimming is",
+      "option1": "Amrendra Singh",
+      "option2": "Bula Chaudhury",
+      "option3": "Yuri Gagarin",
+      "option4": "Junko Taibei",
+      "correctAnswer": "Bula Chaudhury"
+    },
+    {
+      "number": 13,
+      "question": "Who has scored the most goals for India?",
+      "option1": "Sunil Chhetri",
+      "option2": "Udanta Singh",
+      "option3": "Balwant Singh",
+      "option4": "Farukh Chowdary",
+      "correctAnswer": "Sunil Chhetri"
+    },
+    {
+      "number": 14,
+      "question": "The 2017 Indian Premier League (IPL 2017) first match on 5 April, 2017 was held in ?",
+      "option1": "Bengaluru",
+      "option2": "Mumbai",
+      "option3": "Hyderabad",
+      "option4": "Delhi",
+      "correctAnswer": "Hyderabad"
+    },
+    {
+      "number": 15,
+      "question": "Against which team did Virender Sehwag make his one day international debut",
+      "option1": "New Zealand",
+      "option2": "England",
+      "option3": "Pakistan",
+      "option4": "Australia",
+      "correctAnswer": "Pakistan"
+    },
+    {
+      "number": 16,
+      "question": "The cricket stadium 'Gabba' is in which state in Australia",
+      "option1": "Sydney",
+      "option2": "Melbourne",
+      "option3": "Queensland",
+      "option4": "Brisbane",
+      "correctAnswer": "Brisbane"
+    },
+    {
+      "number": 17,
+      "question": "How long are professional Golf Tour Players allotted per shot?",
+      "option1": "35s",
+      "option2": "40s",
+      "option3": "45s",
+      "option4": "53s",
+      "correctAnswer": "45s"
+    },
+    {
+      "number": 18,
+      "question": "'Hopman cup'  is related to which sports?",
+      "option1": "Badminton",
+      "option2": "Lawn Tennis",
+      "option3": "Baseball",
+      "option4": "Football",
+      "correctAnswer": "Lawn Tennis"
+    },
+    {
+      "number": 19,
+      "question": "Which among these cricket bowlers has taken 10 wickets in a single inning in a test match",
+      "option1": "Jawagal Srinath",
+      "option2": "Anil Kumble",
+      "option3": "Shane warne",
+      "option4": "Zaheer Khan",
+      "correctAnswer": "Anil Kumble"
+    },
+    {
+      "number": 20,
+      "question": "Who was the first Indian to qualify for olympics?",
+      "option1": "Mary Kom",
+      "option2": "PT Usha",
+      "option3": "Shiny Abraham",
+      "option4": "Jyotirmony Sikdar",
+      "correctAnswer": "PT Usha"
+    },
+    {
+      "number": 21,
+      "question": "Who is known as Mr. 360 in cricket?",
+      "option1": "Virat Kohli",
+      "option2": "MS Dhoni",
+      "option3": "AB de Villiers",
+      "option4": "Steve Smith",
+      "correctAnswer": "AB de Villiers"
+    },
+    {
+      "number": 22,
+      "question": "Badminton is national game of which country?",
+      "option1": "USA",
+      "option2": "Bhutan",
+      "option3": "India",
+      "option4": "Indonesia",
+      "correctAnswer": "Indonesia"
+    },
+    {
+      "number": 23,
+      "question": "P.V. Sindhu defeated which player in the finals to win her maiden India Open Super Series title on 2 April 2017 ?",
+      "option1": "Wang Yihan",
+      "option2": "Carolina Marin",
+      "option3": " Greysia Polii",
+      "option4": "Sung Ji-Hyun",
+      "correctAnswer": "Carolina Marin"
+    },
+    {
+      "number": 24,
+      "question": "Who won the FIFA World cup 2018?",
+      "option1": "Croatia",
+      "option2": "France",
+      "option3": "Germany",
+      "option4": "Spain",
+      "correctAnswer": "France"
+    },
+    {
+      "number": 25,
+      "question": "Who are winners of 2016 Kabaddi World Cup ?",
+      "option1": "Iran",
+      "option2": "Korea",
+      "option3": "India",
+      "option4": "Bangladesh",
+      "correctAnswer": "India"
     }
   ]
 }

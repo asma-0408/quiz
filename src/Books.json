@@ -1,95 +1,230 @@
 {
-    "questions": [
-      {
-        "number": 1,
-        "question": "Who is the author of the book 'Freedom Behind Bars'?",
-        "option1": "Kiran Bedi",
-        "option2": "Jawaharlal Nehru",
-        "option3": "Sheikh Abdulla",
-        "option4": "Nelson Mandela",
-        "correctAnswer": "Kiran Bedi"
-      },
-      {
-        "number": 2,
-        "question": "In which language did 'Dr. Masti Venkatesh Iyengar' write?",
-        "option1": "Malyalam",
-        "option2": "Tamil",
-        "option3": "Telugu",
-        "option4": "Kannada",
-        "correctAnswer": "Kannada"
-      },
-      {
-        "number": 3,
-        "question": "Who is the author of the book 'We Indians'?",
-        "option1": "Nirad C. Choudhary",
-        "option2": "Subramaniya Swamy",
-        "option3": "Muluk Raj Anand",
-        "option4": "Khushwant Singh",
-        "correctAnswer": "Khushwant Singh"
-      },
-      {
-        "number": 4,
-        "question": "Which of the follwoing is NOT written by Munshi Premchand",
-        "option1": "Gaban",
-        "option2": "Godan",
-        "option3": "Guide",
-        "option4": "Mansarovar",
-        "correctAnswer": "Guide"
-      },
-      {
-        "number": 5,
-        "question": " The lead character in the film 'The Bandit Queen' has been played by?",
-        "option1": "Rupa Ganguly",
-        "option2": "Seema Biswas",
-        "option3": "Pratibha Sinha",
-        "option4": "Shabama Azmi",
-        "correctAnswer": "Shabama Azmi"
-      },
-      {
-        "number": 6,
-        "question": "In which year was the 'all india radio' set up?",
-        "option1": "1936",
-        "option2": "1927",
-        "option3": "1947",
-        "option4": "1950",
-        "correctAnswer": "1936"
-      },
-      {
-        "number": 7,
-        "question": "Who won the Gyan Peeth Award for her book 'Yama'?",
-        "option1": "Maheshwari Devi",
-        "option2": "Asha Pooran Devi",
-        "option3": "Amrita Preetam",
-        "option4": "Mahadevi Verma",
-        "correctAnswer": "Mahadevi Verma"
-      },
-      {
-        "number": 8,
-        "question": "'Alice in Wonderland' the famous TV serial is based on a book written by?",
-        "option1": "Father Discoste",
-        "option2": "Thomas Hardy",
-        "option3": "Charles Dickens",
-        "option4": "Lewis Caroll",
-        "correctAnswer": "Lewis Caroll"
-      },
-      {
-        "number": 9,
-        "question": "'The Gathering Storm' is written by?",
-        "option1": "Winston Churchill",
-        "option2": "George Washington",
-        "option3": "Voltaire",
-        "option4": "Romain Rolland",
-        "correctAnswer": "Winston Churchill"
-      },
-      {
-        "number": 10,
-        "question": "Who is the author of the book 'My Experiments with the Truth'?",
-        "option1": "Mahatma Gandhi",
-        "option2": "Michael Anderson",
-        "option3": "Winston Churchill",
-        "option4": "Jarnes Morris",
-        "correctAnswer": "Mahatma Gandhi"
-      }
-    ]
+  "questions": [
+    {
+      "number": 1,
+      "question": "Who is the author of the book 'Freedom Behind Bars'?",
+      "option1": "Kiran Bedi",
+      "option2": "Jawaharlal Nehru",
+      "option3": "Sheikh Abdulla",
+      "option4": "Nelson Mandela",
+      "correctAnswer": "Kiran Bedi"
+    },
+    {
+      "number": 2,
+      "question": "In which language did 'Dr. Masti Venkatesh Iyengar' write?",
+      "option1": "Malyalam",
+      "option2": "Tamil",
+      "option3": "Telugu",
+      "option4": "Kannada",
+      "correctAnswer": "Kannada"
+    },
+    {
+      "number": 3,
+      "question": "Who is the author of the book 'We Indians'?",
+      "option1": "Nirad C. Choudhary",
+      "option2": "Subramaniya Swamy",
+      "option3": "Muluk Raj Anand",
+      "option4": "Khushwant Singh",
+      "correctAnswer": "Khushwant Singh"
+    },
+    {
+      "number": 4,
+      "question": "Which of the follwoing is NOT written by Munshi Premchand",
+      "option1": "Gaban",
+      "option2": "Godan",
+      "option3": "Guide",
+      "option4": "Mansarovar",
+      "correctAnswer": "Guide"
+    },
+    {
+      "number": 5,
+      "question": " The lead character in the film 'The Bandit Queen' has been played by?",
+      "option1": "Rupa Ganguly",
+      "option2": "Seema Biswas",
+      "option3": "Pratibha Sinha",
+      "option4": "Shabama Azmi",
+      "correctAnswer": "Shabama Azmi"
+    },
+    {
+      "number": 6,
+      "question": "In which year was the 'all india radio' set up?",
+      "option1": "1936",
+      "option2": "1927",
+      "option3": "1947",
+      "option4": "1950",
+      "correctAnswer": "1936"
+    },
+    {
+      "number": 7,
+      "question": "Who won the Gyan Peeth Award for her book 'Yama'?",
+      "option1": "Maheshwari Devi",
+      "option2": "Asha Pooran Devi",
+      "option3": "Amrita Preetam",
+      "option4": "Mahadevi Verma",
+      "correctAnswer": "Mahadevi Verma"
+    },
+    {
+      "number": 8,
+      "question": "'Alice in Wonderland' the famous TV serial is based on a book written by?",
+      "option1": "Father Discoste",
+      "option2": "Thomas Hardy",
+      "option3": "Charles Dickens",
+      "option4": "Lewis Caroll",
+      "correctAnswer": "Lewis Caroll"
+    },
+    {
+      "number": 9,
+      "question": "'The Gathering Storm' is written by?",
+      "option1": "Winston Churchill",
+      "option2": "George Washington",
+      "option3": "Voltaire",
+      "option4": "Romain Rolland",
+      "correctAnswer": "Winston Churchill"
+    },
+    {
+      "number": 10,
+      "question": "Who is the author of the book 'My Experiments with the Truth'?",
+      "option1": "Mahatama Gandhi",
+      "option2": "Michael Anderson",
+      "option3": "Winston Churchill",
+      "option4": "Jarnes Morris",
+      "correctAnswer": "Mahatama Guide"
+    },
+    {
+      "number": 11,
+      "question": "Which of the following books has been written by Vikram Seth?",
+      "option1": "My God Died Young",
+      "option2": "Look Back in Anger",
+      "option3": "Islamic Bomb",
+      "option4": "A Suitable Boy",
+      "correctAnswer": "A Suitable Boy"
+    },
+    {
+      "number": 12,
+      "question": "Who is the author of 'Tom Sawyer'?",
+      "option1": "Leo Tolstoy",
+      "option2": "Mark Twain",
+      "option3": "John Ruskin",
+      "option4": "William Shakespear",
+      "correctAnswer": "Mark Twain"
+    },
+    {
+      "number": 13,
+      "question": "The celebrated novel 'The Godfather' was authored by",
+      "option1": "John Millton",
+      "option2": "Mark Twain",
+      "option3": "John Ruskin",
+      "option4": "Mario Puzo",
+      "correctAnswer": "Mario Puzo"
+    },
+    {
+      "number": 14,
+      "question": "Which of the following books is written by Rabindranath Tagore?",
+      "option1": "Rakta Karabi",
+      "option2": "Chidambara",
+      "option3": "Anand Math",
+      "option4": "Durgesh Nandini",
+      "correctAnswer": "Rakta Karabi"
+    },
+    {
+      "number": 15,
+      "question": "Who wrote the book 'The Prince'?",
+      "option1": "Bernard Shaw",
+      "option2": "Niccolo Machiaveli",
+      "option3": "V.S. Sharma",
+      "option4": "Emile Zola",
+      "correctAnswer": "Niccolo Machiaveli"
+    },
+    {
+      "number": 16,
+      "question": "Lala Lajpat Rai is the author of the book",
+      "option1": "India Divided",
+      "option2": "Mother India",
+      "option3": "Unhappy India",
+      "option4": "Hind Swaraj",
+      "correctAnswer": "Unhappy India"
+    },
+    {
+      "number": 17,
+      "question": "'Alice in Wonderland' the famous TV serial is based on a book written by",
+      "option1": "Father Discoste",
+      "option2": "Thomas Hardy",
+      "option3": "Charles Dickens",
+      "option4": "Lewis Caroll",
+      "correctAnswer": "Lewis Caroll"
+    },
+    {
+      "number": 18,
+      "question": "Who is the author of the book 'My Experiments with Truth'?",
+      "option1": "Mahatma Gandhi",
+      "option2": "Thomas Hardy",
+      "option3": "Charles Dickens",
+      "option4": "Lewis Caroll",
+      "correctAnswer": "Mahatma Gandhi"
+    },
+    {
+      "number": 19,
+      "question": "Who is the writer of 'Swamy and Friends'?",
+      "option1": "Munshi Premchand",
+      "option2": "Raman",
+      "option3": "Max Muller",
+      "option4": "R. K. Narayan",
+      "correctAnswer": "R. K. Narayan"
+    },
+    {
+      "number": 20,
+      "question": "The author of controversial book 'Lajja' is a citizen of",
+      "option1": "India",
+      "option2": "Pakistan",
+      "option3": "Bangladesh",
+      "option4": "Sri lanka",
+      "correctAnswer": "Bangladesh"
+    },
+    {
+      "number": 21,
+      "question": "'The Naked Face', a very popular book is written by",
+      "option1": "Dominique Lapierre",
+      "option2": "Larry Collins",
+      "option3": "Sidney Sheldon",
+      "option4": "Juan Benet",
+      "correctAnswer": "Sidney Sheldon"
+    },
+    {
+      "number": 22,
+      "question": "The first history book was written by",
+      "option1": "Euclid",
+      "option2": "Herodotus",
+      "option3": "Aristotle",
+      "option4": "Julius Caesar",
+      "correctAnswer": "Herodotus"
+    },
+    {
+      "number": 23,
+      "question": "The book named 'Three Decades in Parliament' is a collection of the speeches of",
+      "option1": "A. B. Vajpayee",
+      "option2": "Somnath Chatterjee",
+      "option3": "L. K. Advani",
+      "option4": "N. G. Ranga",
+      "correctAnswer": "A. B. Vajpayee"
+    },
+    {
+      "number": 24,
+      "question": "In which language did 'Dr. Masti Venkatesh Iyengar' write?",
+      "option1": "Telugu",
+      "option2": "Kannada",
+      "option3": "Malayalam",
+      "option4": "Tamil",
+      "correctAnswer": "Kannada"
+    },
+    {
+      "number": 25,
+      "question": "The famous book 'Anna Karenina' written by ",
+      "option1": "Leo Tolstoy",
+      "option2": "Mark Twain",
+      "option3": "John Ruskin",
+      "option4": "William Shakespear",
+      "correctAnswer": "Leo Tolstoy"
+    }
+  ]
   }
   

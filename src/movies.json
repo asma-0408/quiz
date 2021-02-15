@@ -1,95 +1,239 @@
 {
-    "questions": [
-      {
-        "number": 1,
-        "question": "What was the first movie in the Marvel Cinematic Universe?",
-        "option1": "The Avengers",
-        "option2": "Iron Man",
-        "option3": "Thor",
-        "option4": "Spider-Man",
-        "correctAnswer": "Iron Man"
-      },
-      {
-        "number": 2,
-        "question": "Which of these actors DID NOT appear in Pulp Fiction?",
-        "option1": "Samuel L Jackson",
-        "option2": "John Turturro",
-        "option3": "Bruce Willis",
-        "option4": "Uma Thurman",
-        "correctAnswer": "John Turturro"
-      },
-      {
-        "number": 3,
-        "question": "What is it called when an actor breaks character to directly address the audience?",
-        "option1": "Bending the narrative",
-        "option2": "Sweeping the rug",
-        "option3": "Breaking the 4th wall",
-        "option4": "Following the loose thread",
-        "correctAnswer": "Breaking the 4th wall"
-      },
-      {
-        "number": 4,
-        "question": "Which of these movies was NOT directed by M. Night Shyamalan?",
-        "option1": "The Sixth Sense",
-        "option2": "Signs",
-        "option3": "Glass",
-        "option4": "The Ring",
-        "correctAnswer": "The Ring"
-      },
-      {
-        "number": 5,
-        "question": "Which  of the following is filmmaker Michael Bay known for?",
-        "option1": "Explosions",
-        "option2": "Fanciful costume design",
-        "option3": "Sweeping Western lanscape",
-        "option4": "Romantic comedy",
-        "correctAnswer": "Explosions"
-      },
-      {
-        "number": 6,
-        "question": "In the movie 'Frozen', who was Olaf?",
-        "option1": "A ghost",
-        "option2": "A snowman",
-        "option3": "A reindeer",
-        "option4": "A knight",
-        "correctAnswer": "A snowman"
-      },
-      {
-        "number": 7,
-        "question": "Who directed Dil Chahta Hai?",
-        "option1": "Zoya Akhtar",
-        "option2": "Aamir Khan",
-        "option3": "Farhan Akhtar",
-        "option4": "Reema Kagti",
-        "correctAnswer": "Farhan Akhtar"
-      },
-      {
-        "number": 8,
-        "question": "Fow which of these movies did Leonardo DiCaprio win an Oscar for Best Actor?",
-        "option1": "The Revenant",
-        "option2": "The Last King of Scotland",
-        "option3": "Blood Diamond",
-        "option4": "Titanic",
-        "correctAnswer": "The Revenant"
-      },
-      {
-        "number": 9,
-        "question": "In the 'Godfather' series, where qas Vito Corleone born?",
-        "option1": "Rome",
-        "option2": "New York City",
-        "option3": "Corleone, Sicilly",
-        "option4": "Athens",
-        "correctAnswer": "Corleone, Sicilly"
-      },
-      {
-        "number": 10,
-        "question": "Which is the only movie to win 13 Filmfare Awards?",
-        "option1": "Uri: The Surgical Strike",
-        "option2": "Article 15",
-        "option3": "Saand Ki Aankh",
-        "option4": "Gully Boy",
-        "correctAnswer": "Gully Boy"
-      }
-    ]
+  "questions": [
+    {
+      "number": 1,
+      "question": "What was the first movie in the Marvel Cinematic Universe?",
+      "option1": "The Avengers",
+      "option2": "Iron Man",
+      "option3": "Thor",
+      "option4": "Spider-Man",
+      "correctAnswer": "Iron Man"
+    },
+    {
+      "number": 2,
+      "question": "Which of these actors DID NOT appear in Pulp Fiction?",
+      "option1": "Samuel L Jackson",
+      "option2": "John Turturro",
+      "option3": "Bruce Willis",
+      "option4": "Uma Thurman",
+      "correctAnswer": "John Turturro"
+    },
+    {
+      "number": 3,
+      "question": "What is it called when an actor breaks character to directly address the audience?",
+      "option1": "Bending the narrative",
+      "option2": "Sweeping the rug",
+      "option3": "Breaking the 4th wall",
+      "option4": "Following the loose thread",
+      "correctAnswer": "Breaking the 4th wall"
+    },
+    {
+      "number": 4,
+      "question": "Which of these movies was NOT directed by M. Night Shyamalan?",
+      "option1": "The Sixth Sense",
+      "option2": "Signs",
+      "option3": "Glass",
+      "option4": "The Ring",
+      "correctAnswer": "The Ring"
+    },
+    {
+      "number": 5,
+      "question": "Which  of the following is filmmaker Michael Bay known for?",
+      "option1": "Explosions",
+      "option2": "Fanciful costume design",
+      "option3": "Sweeping Western lanscape",
+      "option4": "Romantic comedy",
+      "correctAnswer": "Explosions"
+    },
+    {
+      "number": 6,
+      "question": "In the movie 'Frozen', who was Olaf?",
+      "option1": "A ghost",
+      "option2": "A snowman",
+      "option3": "A reindeer",
+      "option4": "A knight",
+      "correctAnswer": "A snowman"
+    },
+    {
+      "number": 7,
+      "question": "Who directed Dil Chahta Hai?",
+      "option1": "Zoya Akhtar",
+      "option2": "Aamir Khan",
+      "option3": "Farhan Akhtar",
+      "option4": "Reema Kagti",
+      "correctAnswer": "Farhan Akhtar"
+    },
+    {
+      "number": 8,
+      "question": "Fow which of these movies did Leonardo DiCaprio win an Oscar for Best Actor?",
+      "option1": "The Revenant",
+      "option2": "The Last King of Scotland",
+      "option3": "Blood Diamond",
+      "option4": "Titanic",
+      "correctAnswer": "The Revenant"
+    },
+    {
+      "number": 9,
+      "question": "In the 'Godfather' series, where qas Vito Corleone born?",
+      "option1": "Rome",
+      "option2": "New York City",
+      "option3": "Corleone, Sicilly",
+      "option4": "Athens",
+      "correctAnswer": "Corleone, Sicilly"
+    },
+    {
+      "number": 10,
+      "question": "Which is the only movie to win 13 Filmfare Awards?",
+      "option1": "Uri: The Surgical Strike",
+      "option2": "Article 15",
+      "option3": "Saand Ki Aankh",
+      "option4": "Gully Boy",
+      "correctAnswer": "Gully Boy"
+    },
+    {
+      "number": 11,
+      "question": "Who is the director of Baahubali",
+      "option1": "V.V. Vinayak",
+      "option2": "S.S. Rajamouli",
+      "option3": "Koratala Siva",
+      "option4": "Shankar",
+      "correctAnswer": "S.S. Rajamouli"
+    },
+    {
+      "number": 12,
+      "question": "Who among the following made first Film Theatre of India?",
+      "option1": "Lumiere Brothers",
+      "option2": "Mani Sethna",
+      "option3": "Dada Saheb Phalke",
+      "option4": "Dhirendra Nath Ganguly",
+      "correctAnswer": "Mani Sethna"
+    },
+    {
+      "number": 13,
+      "question": "Which of the following regional cinema referred to as Kollywood?",
+      "option1": "Punjabi Cinema",
+      "option2": "Tamil Cinema",
+      "option3": "Telugu Cinema",
+      "option4": "Bengali Cinema",
+      "correctAnswer": "Tamil Cinema"
+    },
+    {
+      "number": 14,
+      "question": "What is the name of the National-award winning Bollywood choreographer, who recently passed away?",
+      "option1": "Saroj Khan",
+      "option2": "Protik Prakash",
+      "option3": "Tridib Ghosh",
+      "option4": "Geetha Nagabhushan",
+      "correctAnswer": "Saroj Khan"
+    },
+    {
+      "number": 15,
+      "question": "The Versatile Bollywood actor Irrfan Khan, who recently passed away, had won National award for which movie?",
+      "option1": "Life Of Pi",
+      "option2": "The Lunchbox",
+      "option3": "Paan Singh Tomar",
+      "option4": "Hindi Medium",
+      "correctAnswer": "Paan Singh Tomar"
+    },
+    {
+      "number": 16,
+      "question": "Which movie has become the first Bollywood film to go plastic-free?",
+      "option1": "War",
+      "option2": "Coolie No 1",
+      "option3": "Mission Mangal",
+      "option4": "Gully Boy",
+      "correctAnswer": "Coolie No 1"
+    },
+    {
+      "number": 17,
+      "question": "Which among these movies are directed by zoya akthar?",
+      "option1": "Zindagi Na Milegi Dobara",
+      "option2": "Yeh Jawani Hai Deewani",
+      "option3": "Mission Mangal",
+      "option4": "War",
+      "correctAnswer": "Zindagi Na Milegi Dobara"
+    },
+    {
+      "number": 18,
+      "question": "Which Bollywood personality has been honoured by European Union for strengthening Europe-India cultural ties?",
+      "option1": "Hrithik Roshan",
+      "option2": "Amitabh Bachchan",
+      "option3": "Ranveer Singh",
+      "option4": "Akshay Kumar",
+      "correctAnswer": "Amitabh Bachchan"
+    },
+    {
+      "number": 19,
+      "question": "Who was the music director of roja?",
+      "option1": "A.R. Rahman",
+      "option2": "Ilayaraja",
+      "option3": "S.P. Balasubramanian",
+      "option4": "S.V Venkatraman",
+      "correctAnswer": "A.R. Rahman"
+    },
+    {
+      "number": 20,
+      "question": "Which Indian bollywood personality has been honoured with the 2017 Parmod Mahajan Smriti Award?",
+      "option1": "Amitabh Bachchan",
+      "option2": "Shatrughan Sinha",
+      "option3": "Sharmila Tagore",
+      "option4": "Anupam Kher",
+      "correctAnswer": "Anupam Kher"
+    },
+    {
+      "number": 21,
+      "question": "Which of these south Indian song is sung by Farhan Akthar",
+      "option1": "The Break Up song",
+      "option2": "I Don't Know",
+      "option3": "Bharat ane nenu",
+      "option4": "My love is gone",
+      "correctAnswer": "I Don't Know"
+    },
+    {
+      "number": 22,
+      "question": "Which of these south Indian song is sung by Farhan Akthar",
+      "option1": "The Break Up song",
+      "option2": "I Don't Know",
+      "option3": "Bharat ane nenu",
+      "option4": "My love is gone",
+      "correctAnswer": "I Don't Know"
+    },
+    {
+      "number": 22,
+      "question": "Who was the lead actor in the movie M.S.Dhoni: The Untold Story?",
+      "option1": "Sushanth Singh Rajput",
+      "option2": "Akshay Kumar",
+      "option3": "Ranveer Singh",
+      "option4": "Ayushmann Khurrana",
+      "correctAnswer": "Sushanth Singh Rajput"
+    },
+    {
+      "number": 23,
+      "question": "Who was the lead actor in the movie M.S.Dhoni: The Untold Story?",
+      "option1": "Sushanth Singh Rajput",
+      "option2": "Akshay Kumar",
+      "option3": "Ranveer Singh",
+      "option4": "Ayushmann Khurrana",
+      "correctAnswer": "Sushanth Singh Rajput"
+    },
+    {
+      "number": 24,
+      "question": "What's the highest rated movie on imdb?",
+      "option1": "The Shawshank Redemption",
+      "option2": "The Godfather",
+      "option3": "Inception",
+      "option4": "Interstellar",
+      "correctAnswer": "The Shawshank Redemption"
+    },
+    {
+      "number": 25,
+      "question": "Which among these movies are not directed by Christopher Nolan?",
+      "option1": "Tenet",
+      "option2": "The Godfather",
+      "option3": "Inception",
+      "option4": "Interstellar",
+      "correctAnswer": "The Godfather"
+    }
+  ]
   }
   
